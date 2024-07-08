@@ -4,3 +4,4 @@ pub mod palindrome_number;
 pub mod roman_to_integer;
 pub mod pass_the_pillow;
 pub mod water_bottles;
+pub mod circular_game;
