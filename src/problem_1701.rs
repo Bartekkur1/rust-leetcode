@@ -1,11 +1,11 @@
+#![allow(dead_code)]
 struct Solution {}
 
 impl Solution {
     #[allow(dead_code)]
     pub fn average_waiting_time(customers: Vec<Vec<i32>>) -> f64 {
         let mut time_end = 0;
-        #[warn(unused_assignments)]
-        let mut start_time = 0;
+        let mut start_time;
         let mut waiting: Vec<i64> = Vec::new();
 
         for customer in customers.into_iter() {

@@ -1,11 +1,11 @@
+#![allow(dead_code)]
 struct Solution {}
 
 impl Solution {
-    #[allow(dead_code)]
     pub fn pass_the_pillow(n: i32, time: i32) -> i32 {
         let mut position = 1;
         let mut moving_right = true;
-        for i in 1..=time {
+        for _i in 1..=time {
             if position == n {
                 moving_right = false;
             } else if position == 1 {
